@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -16,13 +16,11 @@ const Navbar = () => {
                 </div>
 
             
-                <div className="">
-                    <a className="btn btn-ghost" style={{backgroundColor:"linear-gradient(180deg, rgba(126,144,254,1) 0%, rgba(152,115,255,1) 100%)"}}>Star Applying</a>
-                </div>
+                <button className="text-white font-bold text-lg rounded-xl bg-all py-5 px-8 btn btn-ghost">
+                    Star Applying
+                </button>
             </div>
 
-
-            
         </div>
     );
 };
